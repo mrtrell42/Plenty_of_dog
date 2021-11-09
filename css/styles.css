@@ -25,7 +25,9 @@ body {
 .sammy {
   /* margin-top: 10%; */
   transform: rotate(25deg);
-  width: 60%;
+  width: 19%;
+  /* z-index: -1; */
+  position: absolute;
 
 }
 
@@ -62,6 +64,9 @@ body {
 /* features */
 #features {
   padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
 }
 
 #features p {
@@ -132,4 +137,16 @@ body {
 
 .price-column {
   padding-top: 1.5rem;
+}
+
+@media (max-width:1030px) {
+  .sammy {
+    width: 380px;
+    transform: rotate(0);
+    position: static;
+  }
+
+  #title {
+    text-align: center;
+  }
 }
