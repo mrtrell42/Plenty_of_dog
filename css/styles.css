@@ -3,7 +3,7 @@ body {
 }
 
 #title {
-  background-color: #ef8172;
+  background-color: hsl(7, 80%, 69%);
 }
 
 .container-fluid {
@@ -139,6 +139,37 @@ body {
   padding-top: 1.5rem;
 }
 
+
+/* footer */
+#cta {
+  background-color: hsl(7, 80%, 69%);
+  padding: 7% 15%;
+  color: #fff;
+  text-align: center;
+}
+
+.cta_heading {
+  font-size: 3.5rem;
+  line-height: 1;
+  font-family: "Montserrat Black";
+}
+
+
+#footer {
+  padding: 3% 15%;
+  text-align: center;
+}
+
+.social-icon {
+  margin: 20px 15px;
+}
+
+
+
+
+
+
+/* breakpoint */
 @media (max-width:1030px) {
   .sammy {
     width: 380px;
